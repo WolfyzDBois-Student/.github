@@ -1,6 +1,7 @@
 ## Bienvenue ! 
 
-Ce 
+Cet espace de travail n'a pas comme première vocation d'héberger des projets publiques, mais bien des projets privés dans le cadre d'études, ou semi-privé à certains groupes. 
+Certains repo d'entrainement, de documentation ou de référence seront par la suite rendu publiques. 
 
 <!--
 
