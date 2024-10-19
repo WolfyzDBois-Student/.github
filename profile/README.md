@@ -1,15 +1,31 @@
-## Bienvenue ! 
+```bash
+wolfyzdbois:~$ cat description.cs
+> You have just landed on my space reserved for studies.
+> Public repo: Training, tests ...
+> Repo on whitelist: Corrections & Documents reserved for those concerned
+> Otherwise, this is a private storage space
+```
 
-Cet espace de travail n'a pas comme première vocation d'héberger des projets publiques, mais bien des projets privés dans le cadre d'études, ou semi-privé à certains groupes. 
-Certains repo d'entrainement, de documentation ou de référence seront par la suite rendu publiques. 
 
-<!--
+```cs
 
-**Here are some ideas to get you started:**
+using WolfyzDBois;
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+class Program
+{
+    static void Main()
+    {
+        
+    if (userInput == "student" && know == true)
+    {
+       return("WolfyzDBois in DM on Discord to access the repositories that interest you");
+
+    }
+    else if (userInput == "student" && know == false)
+        {
+           return("No repositories are public to date...");
+        }
+    else throw new UnauthorizedAccessException("Hmmm...who are you?");
+        
+    }
+}
