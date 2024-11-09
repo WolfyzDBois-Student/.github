@@ -23,7 +23,7 @@ class Program
     }
     else if (userInput == "student" && know == false)
         {
-           return("No repositories are public to date...");
+           return(["Alias", "GitGuide", "TemplateLatex"]);
         }
     else throw new UnauthorizedAccessException("Hmmm...who are you?");
         
